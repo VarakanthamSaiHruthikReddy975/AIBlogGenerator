@@ -12,5 +12,5 @@ class BlogPost(models.Model):
     def __str__(self):
         return self.youtube_title
 
-class CustomUser(AbstractUser):
-    
+# class CustomUser(AbstractUser):
+#     pass
